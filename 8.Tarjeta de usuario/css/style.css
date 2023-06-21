@@ -1,0 +1,52 @@
+.contenedor{
+    width: 60%;
+    margin-left: 250px;
+}
+
+.head{
+    height: 7em;
+    width: auto;
+    background-color: rgb(1, 196, 196);
+}
+
+.profile-img-container{
+    height: 100px;
+    width: 100px ;
+    border: 2px solid gray;
+    border-radius: 70px;
+    padding: 3px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 320px;
+    margin-bottom: 0px;
+}
+
+.profile-img{
+    height: 100px;
+    width: 100px;
+}
+
+.city{
+    font-weight: bold;
+}
+
+.img-loc{
+    height:15px;
+    margin-right: 5px;
+}
+.gear{
+    height:15px;
+    margin-right: 5px;
+}
+
+.main-content{
+    height: 180px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 80px;
+    border-top-color: rgb(1, 196, 196);
+}
