@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin-top: 0;
+}
+
+.nav-links{
+    width: 550px;
+    margin-right: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+.nav-links a {
+    color: grey;
+    text-decoration: none;
+  }
+
+.nav-links .active{
+    color: white;
+}
+
+.nav-title{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.btn{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    background-color:aqua;
+    border: 2px solid black;    
+    color: white;
+    box-shadow: 3px 3px 0px black;
+    cursor: pointer;
+}
+
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+
+
+
+
+
